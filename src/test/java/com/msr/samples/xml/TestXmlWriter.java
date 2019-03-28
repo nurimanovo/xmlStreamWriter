@@ -43,7 +43,7 @@ class TestXmlWriter {
     }
 
     /**
-     * Тест записи 1 000 000 записей с сериализацией через JAXB
+     * Тест записи 3 000 000 записей с сериализацией через JAXB без помещения всех записей в память
      */
     @Test
     void testWriteManyRecords() throws IOException, JAXBException, XMLStreamException {
